@@ -1,0 +1,76 @@
+.graficas-container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: transparent;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 7px;
+  user-select: none;
+}
+
+.graficas-container .graficas-skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.graficas-skill-box .graficas-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.graficas-skill-box .graficas-skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.graficas-skill-bar .graficas-skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 6px;
+  background: #ffffff;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes progress {
+  0% {
+      width: 0;
+      opacity: 1;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+.graficas-skill-per .graficas-tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #000000;
+  z-index: 1;
+}
+
+.graficas-tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background: #000000;
+  transform: translateX(-50%) rotate(45deg);
+}

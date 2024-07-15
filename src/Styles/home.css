@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
 .container-introduction {
     width: 100%;
     height: 90vh;
     background-image: url('/public/developer.jpg');
     background-size: cover;
     background-position: center;
-    position: relative; /* Asegura que el position:relative esté aquí */
+    position: relative;
 }
 
 .container-info-home {
@@ -13,17 +15,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; 
+    position: relative;
 }
 
 .info-home {
     width: 50%;
-    max-width: 600px; 
+    max-width: 600px;
     padding: 20px;
-    position: relative; 
-    z-index: 1; 
+    position: relative;
+    z-index: 1;
     text-align: center;
-    color: white; 
+    color: white;
 }
 
 .container-info-home::after {
@@ -35,7 +37,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    z-index: 0; 
+    z-index: 0;
 }
 
 .title-home {
@@ -67,3 +69,271 @@
     background-color: white;
     color: black;
 }
+
+/* Solutiones */
+.container-Solutions {
+    height: 10vh;
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-solutions {
+    height: 80%;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.data-solutiones {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-solutions {
+    font-family: "Khula", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.side-bar {
+    top: 0;
+    width: 2px;
+    /* Ancho de las barras */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    /* Color y transparencia de las barras */
+    z-index: 0;
+    /* Asegura que las barras estén detrás del fondo negro */
+
+}
+
+.side-bar.left {
+    left: 0;
+}
+
+.side-bar.right {
+    right: 0;
+}
+
+/* About */
+.container-HomeAbout {
+    height: 70vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-about-home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+}
+
+.info-about-home {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.info-about-home::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+}
+
+.image-about {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.title-aboutHome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    color: rgb(203, 203, 203);
+    z-index: 1;
+    font-family: "Khula", sans-serif;
+
+    background-color: rgba(0, 0, 0, 0.0);
+    /* Fondo semitransparente para mejorar la legibilidad */
+    padding: 80px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    /* Borde blanco */
+
+}
+
+.info-about-home-text {
+    width: 65%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-about-text {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.descrip-abouthome {
+    text-align: center;
+    font-family: "Khula", sans-serif;
+    color: rgb(210, 209, 209);
+    margin-bottom: 5%;
+}
+
+
+/* Services */
+.container-services {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-services {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-text-services {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-services {
+    font-size: 32px;
+    color: #FF8A00;
+    font-family: "Poppins", sans-serif;
+}
+
+.descrip-services {
+    font-family: "Khula", sans-serif;
+    color: #797979;
+    text-align: center;
+    padding: 20px;
+}
+
+.services {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    padding: 5vh;
+    box-sizing: border-box;
+}
+
+.icon-service{
+    width: 40%;
+    height: 40%;
+}
+
+.subtitle-service {
+    color: #FF8A00;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.subdescrip-service {
+    color: #797979;
+    text-align: center;
+    font-family: "Khula", sans-serif;
+    font-size: 13px;
+}
+
+/* Choose */
+
+.container-choose{
+    height: 70vh;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-inf-choose{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.data-info-choose{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-choose{
+    color: white;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align:left;
+    width: 100%;
+    
+    margin-bottom: 5%;
+}
+
+.descrip-choose{
+    color: white;
+    font-size: 16px;
+    font-family: "Khula", sans-serif;
+    text-align: justify;
+    font-weight: 100;
+}
+
+
