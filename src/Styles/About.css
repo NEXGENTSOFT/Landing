@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+.container-introduction-about {
+    width: 100%;
+    height: 50vh;
+    background-image: url('/public/developer2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container-info-about {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-info-about::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.info-about {
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.title-about {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.container-info-aboutUs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container-AboutInfo {
+    background-color: rgb(27, 27, 27);
+    height: 120vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-aboutUs {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-aboutUs {
+    color: #FF8A00;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding: 30px;
+
+}
+
+.descrip-aboutUs{
+    color: white;
+    font-family: "Khula", sans-serif;
+    font-size: 14px;
+}
+
+
+
+.descrip-mv{
+    color: rgb(255, 255, 255);
+    font-family: "Khula", sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.container-data-mv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+.data-mv {
+    width: 40%;
+}
+
+.title-mv{
+    color: #FF8A00;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 30px;
+}

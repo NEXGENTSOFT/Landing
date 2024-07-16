@@ -1,0 +1,27 @@
+.container-footer {
+    background-color: #FF8A00;    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.container-info-footer {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+
+.data-info-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.txt-footer{
+    font-family: "Khula", sans-serif;
+    color: white;
+}

@@ -1,8 +1,7 @@
 import React from 'react'
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF } from "react-icons/fa6";
-
-
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -13,10 +12,10 @@ function Header() {
                 </div>
 
                 <div className='div-nav'>
-                    <a href="" className="nav-link"> Inicio </a>
-                    <a href="" className="nav-link"> Nosotros </a>
-                    <a href="" className="nav-link"> Productos </a>
-                    <a href="" className="nav-link"> Contactanos</a>
+                    <Link to="/" className="nav-link"> Inicio </Link>
+                    <Link to="/Nosotros"className="nav-link"> Nosotros </Link>
+                    <Link to="/" className="nav-link"> Productos </Link>
+                    <Link to="/Conta" className="nav-link"> Contactanos</Link>
                 </div>
 
                 <div className="data-redes-sociales">

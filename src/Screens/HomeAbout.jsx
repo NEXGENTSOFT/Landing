@@ -1,5 +1,4 @@
 import React from 'react';
-import Cubo from '../Components/Spinner';
 
 function HomeAbout() {
   return (

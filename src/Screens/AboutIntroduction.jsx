@@ -2,10 +2,10 @@ import React from 'react'
 
 function IntroductionAbout() {
   return (
-    <div className="container-introduction">
+    <div className="container-introduction-about">
         <div className="container-info-about">
-            <div className="info-home">
-                <p className="title-home">Innovación y Eficiencia en Cada Solución Digital</p>
+            <div className="info-about">
+                <p className="title-about">Nosotros</p>
             </div>
         </div>
     </div>
