@@ -72,7 +72,6 @@
 /* Header */
 
 .container-nav{
-    background-color: aqua;
     display: flex;
     flex-direction: row;
     align-items: center;

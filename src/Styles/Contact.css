@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+
+
+
+.container-introduction-contact {
+    width: 100%;
+    height: 50vh;
+    background-image: url('/public/city.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.container-info-contact {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container-info-contact::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.info-contact {
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+}
+
+.title-contact {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.container-contact {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-empresa {
+    width: 60%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.data-info-empresa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.data-empresa {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.txt-empresa{
+    color: #FF8A00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.txt-descrip-contact{
+    color: white;
+    font-family: "Khula", sans-serif;
+    font-weight: 300;
+}
+
+.side-bar {
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 0;
+}
+
+.side-bar.left {
+    left: 0;
+}
+
+.side-bar.right {
+    right: 0;
+}
+
+.icon-contact{
+    width: 40%;
+    height: 40%;
+    color: #FF8A00;
+}
+
+.descrip-form-contact{
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.section_form{
+    width: 70%;
+}
+.form-empresa {
+    width: 90%;
+    height: 60%;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.feed-form {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.feed-form input, textarea {
+    height: 54px;
+    border-radius: 5px;
+    background: rgb(54, 54, 54);
+    margin-bottom: 15px;
+    border: none;
+    padding: 0 20px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #e3e3e3;
+    width: 100%;
+    font-family: "Khula", sans-serif;
+}
+
+textarea{
+    height: 20%;
+    width: 100%;
+  padding: 40px 10px 20px 10px;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.button_submit:hover, .feed-form input:hover {
+    transform: scale(1.009);
+    box-shadow: 0px 0px 3px 0px #212529;
+}
+
+.button_submit {
+    width: 50%;
+    height: 54px;
+    font-size: 14px;
+    color: white;
+    background: rgb(209, 106, 2);
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}

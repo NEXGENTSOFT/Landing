@@ -7,18 +7,9 @@ function Footer() {
   return (
     <div className='container-footer'>
       <div className="container-info-footer">
+       
         <div className="data-info-footer">
-          <div className="data-redes">
-            <AiFillInstagram className='icon-redes' />
-
-          </div>
-          <div className="data-redes">
-            <FaFacebookF className='icon-redes' />
-
-          </div>
-        </div>
-        <div className="data-info-footer">
-          <p className="txt-footer">©2024 NEXGENSOFT</p>
+          <p className="txt-footer">Copyrights © 2024 de NexGenSoft. Todos los derechos reservados. </p>
         </div>
       </div>
     </div>

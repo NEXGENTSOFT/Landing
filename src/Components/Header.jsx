@@ -15,7 +15,7 @@ function Header() {
                     <Link to="/" className="nav-link"> Inicio </Link>
                     <Link to="/Nosotros"className="nav-link"> Nosotros </Link>
                     <Link to="/" className="nav-link"> Productos </Link>
-                    <Link to="/Conta" className="nav-link"> Contactanos</Link>
+                    <Link to="/Contactanos" className="nav-link"> Contactanos</Link>
                 </div>
 
                 <div className="data-redes-sociales">
@@ -40,7 +40,7 @@ function Header() {
                     </div>
 
                     <div className="data-info">
-                        <p className="txt-header"> Contactanos</p>
+                        <p className="txt-header"> Privacidad</p>
 
                     </div>
                 </div>

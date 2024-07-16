@@ -101,7 +101,6 @@
     font-weight: 300;
     font-style: normal;
     color: rgb(255, 255, 255);
-
 }
 
 
@@ -271,6 +270,7 @@
 .icon-service{
     width: 40%;
     height: 40%;
+    color: #FF8A00;
 }
 
 .subtitle-service {
