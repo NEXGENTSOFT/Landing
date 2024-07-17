@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.container-ProductAnuncio {
+    width: 100%;
+    height: 80vh;
+    background-image: conic-gradient(orange, rgb(255, 115, 0));
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-producto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 90%;
+
+}
+
+.info-producto {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-producto {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-anuncio {
+    color: white;
+    font-size: 36px;
+    font-family: "Inter", sans-serif;
+    font-style: bold;
+    font-weight: bold;
+}
+
+.descrip-anuncio{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Khula", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.txt-title-project {
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+}
+
+.descrip-project {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 2%;
+    font-family: "Khula", sans-serif;
+    color: rgb(160, 160, 160);
+}
+
+.title-projects {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.container-Projects {
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-info-projects {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-image-project-phone {
+    width: 170px;
+    height: 300px;
+    background: rgb(0, 0, 0);
+    border: 3px solid rgb(17, 4, 94);
+    border-radius: 15px;
+    position: relative;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    transition: all 1s ease;
+}
+
+.img-project {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-project-phone {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.data-projects-phone {
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}

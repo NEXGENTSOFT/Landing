@@ -1,0 +1,88 @@
+.card-project {
+  padding: 20px;
+  width: 330px;
+  min-height: 370px;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+
+.card-project:hover {
+  translate: 0 -10px;
+}
+
+.card-title-project {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FF8A00;
+  margin: 15px 0 0 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+font-size: 15px;
+text-align: center;
+}
+
+.card-image-project {
+  height: 20vh;
+  ;
+  background-color: #313131;
+  border-radius: 15px;
+  background: #313131;
+  box-shadow: inset 5px 5px 3px #2f2f2f,
+    inset -5px -5px 3px #333333;
+}
+
+.data-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-body-project {
+  margin: 13px 0 0 10px;
+  color: rgb(184, 184, 184);
+  font-size: 15px;
+  font-family: "Khula", sans-serif;
+  text-align: center;
+  font-size: 13px;
+}
+
+.img-project {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+
+
+.card-imagen-project {
+  width: 200px;
+  height: 370px;
+  background: rgb(0, 0, 0);
+  border: 3px solid rgb(173, 173, 173);
+  border-radius: 15px;
+  position: relative;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  transition: all 1s ease;
+  color: antiquewhite;
+
+}
+
+.card-imagen-project::before{
+  content: "";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 177px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+.imagen-project {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}

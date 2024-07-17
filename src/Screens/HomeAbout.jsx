@@ -5,7 +5,7 @@ function HomeAbout() {
     <div className='container-HomeAbout'>
       <div className="container-info-about-home">
         <div className="info-about-home">
-          <img src="/public/programmer.jpg" className='image-about' alt="Nosotros" />
+          <img src="/public/img/programmer.jpg" className='image-about' alt="Nosotros" />
           <p className="title-aboutHome">Nosotros</p>
         </div>
         <div className="info-about-home-text">

@@ -8,13 +8,13 @@ function Header() {
         <div className="header">
             <div className="container-header-data">
                 <div className="div-logo">
-                    <img src="public/logo.png" alt="" className="img-logo" />
+                    <img src="public/Logo/logo.png" alt="" className="img-logo" />
                 </div>
 
                 <div className='div-nav'>
                     <Link to="/" className="nav-link"> Inicio </Link>
                     <Link to="/Nosotros"className="nav-link"> Nosotros </Link>
-                    <Link to="/" className="nav-link"> Productos </Link>
+                    <Link to="/Productos" className="nav-link"> Proyectos </Link>
                     <Link to="/Contactanos" className="nav-link"> Contactanos</Link>
                 </div>
 
