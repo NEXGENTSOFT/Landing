@@ -40,7 +40,7 @@ function Header() {
                     </div>
 
                     <div className="data-info">
-                        <p className="txt-header"> Privacidad</p>
+                        <Link to='/Privacidad' className="txt-header"> Privacidad</Link>
 
                     </div>
                 </div>

@@ -4,27 +4,7 @@ function AboutInfo() {
     return (
         <div className="container-AboutInfo">
             <div className="container-info-aboutUs">
-                <div className="data-aboutUs">
-                    <p className="title-aboutUs">Nosotros</p>
-                    <p className="descrip-aboutUs">
-                        En Nexgensoft, creemos en el poder transformador de la tecnología para hacer crecer los negocios.
-                        Aunque somos una empresa emergente, nuestra pasión por la innovación y el compromiso con la calidad
-                        nos guían en cada proyecto. Nos especializamos en desarrollar soluciones de software a medida que se
-                        adaptan a las necesidades específicas de nuestros clientes, asegurando que cada solución sea única y
-                        efectiva.
-
-                        Nuestro equipo está compuesto por profesionales dedicados que aportan una mezcla de experiencia
-                        técnica y creatividad. Trabajamos en estrecha colaboración con nuestros clientes, escuchando
-                        atentamente sus desafíos y objetivos para proporcionar soluciones que realmente les ayuden a avanzar.
-                        Valoramos la honestidad y la transparencia, y nos esforzamos por construir relaciones de confianza con
-                        todos nuestros clientes.
-
-                        En Nexgensoft, no solo desarrollamos software; nos asociamos contigo para comprender tu negocio
-                        y encontrar las mejores maneras de aplicar la tecnología para lograr tus metas. Cada proyecto es
-                        una oportunidad para aprender y mejorar, y nos comprometemos a mantenernos al día con las últimas
-                        tendencias y tecnologías para ofrecerte lo mejor.
-                    </p>
-                </div>
+                
                 <div className="container-data-mv">
                     <div className="data-mv">
                         <p className="title-mv">Misión</p>
@@ -59,7 +39,9 @@ function AboutInfo() {
                             para las empresas que buscan un socio tecnológico en el que puedan confiar plenamente.
                         </p>
                     </div>
+                    
                 </div>
+                
             </div>
         </div>
     )

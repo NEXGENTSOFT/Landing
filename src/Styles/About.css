@@ -58,7 +58,7 @@
 
 .container-AboutInfo {
     background-color: rgb(27, 27, 27);
-    height: 120vh;
+    height: 70vh;
     display: flex;
     justify-content: space-around;
 }
@@ -83,6 +83,8 @@
     color: white;
     font-family: "Khula", sans-serif;
     font-size: 14px;
+    
+    margin-top: 10%;
 }
 
 
@@ -99,7 +101,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
 }
 
 .data-mv {

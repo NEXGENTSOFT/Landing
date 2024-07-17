@@ -7,6 +7,7 @@ import Home from './Pages/Home'
 import About from './Pages/About'
 import Contact from './Pages/Contact';
 import Product from './Pages/Product';
+import Privacidad from './Screens/Privacidad';
 
 function App() {
 
@@ -17,6 +18,8 @@ function App() {
         <Route path="/Nosotros" element={<About />} />
         <Route path="/Productos" element={<Product />} />
         <Route path="/Contactanos" element={<Contact />} />
+        <Route path="/Privacidad" element={<Privacidad />} />
+
       </Routes>
     </BrowserRouter>
   )
